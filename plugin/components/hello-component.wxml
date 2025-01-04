@@ -1,0 +1,4 @@
+<!--plugin/components/hello-component.wxml-->
+<view class="container">
+  <text class="item" wx:key="{{ item }}" wx:for="{{ items }}">{{ item }}</text>
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "hello-list": "plugin://hello-plugin/hello-component",
+    "ad-component": "plugin://hello-plugin/ad-component"
+  }
+}

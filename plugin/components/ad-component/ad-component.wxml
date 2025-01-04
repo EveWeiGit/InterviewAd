@@ -1,0 +1,2 @@
+
+<ad  unit-id="{{unitId}}" bindload="onAdLoad" binderror="onAdError"></ad>

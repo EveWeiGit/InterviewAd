@@ -1,0 +1,13 @@
+<navigator id="nav" url="plugin://hello-plugin/hello-page">
+  Go to Plugin page
+</navigator>
+
+<button id="add" bindtap="addItem">Add item</button>
+
+<hello-list items="{{ items }}" />
+
+<button  bindtap="toggleAd">ShowAd</button>
+
+<view wx:if="{{showad}}">
+  <ad-component unitId="adunit-8ba268d100360565" bindload="onAdLoad" binderror="onAdError" />
+</view>

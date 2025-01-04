@@ -1,0 +1,6 @@
+<!--plugin/pages/hello-page.wxml-->
+<text>
+  This is a plugin page1111!
+</text>
+
+<view wx:if="{{showad}}" ><ad 	ad-type="video" unit-id="adunit-8ba268d100360565"></ad></view>
